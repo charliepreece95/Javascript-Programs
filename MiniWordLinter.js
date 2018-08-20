@@ -56,7 +56,7 @@ for(word of storyWords) {
   }
 };
 //log everything
-const logInfo = (really, very, basically, sentences, fullStops, exclamationMarks, filter) => {
+const logInfo = (really, very, basically, sentences, fullStops, exclamationMarks) => {
   console.log('Word Count: ' + storyWords.length);
   console.log(`Really total count = ${really}`);
   console.log(`Very total count = ${very}`);
@@ -67,4 +67,4 @@ const logInfo = (really, very, basically, sentences, fullStops, exclamationMarks
   console.log(filter.join(' '));
 };
 //call the function
-logInfo(really, very, basically, sentences, fullStops, exclamationMarks, filter);
+logInfo(really, very, basically, sentences, fullStops, exclamationMarks);
