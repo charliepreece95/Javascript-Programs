@@ -49,7 +49,7 @@ team.addPlayer('Ben', 'Jones', 18, 22);
 team.addGame('Inter Milan', 44, 30);
 team.addGame('Ac Milan', 44, 50);
 team.addGame('Roma', 44, 20);
-
+//add scores
 team.addScores(2, 1);
 team.addScores(3, 3);
 team.addScores(0, 1);
