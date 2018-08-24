@@ -125,6 +125,7 @@ class School {
     PriorySchool.addScore(1);
     PriorySchool.addScore(2);
     PriorySchool.getAverageScores();
+    console.log()
   //new instance of college class
   const ShrewsburyCollege = new College('Shrewsbury College', 415, 'shrewsbury');
     //get average rating of the school
@@ -149,3 +150,8 @@ class School {
   const substitute = School.pickSubstituteTeacher(['Jamal Crawford', 'Lou Williams', 'J. R. Smith', 'James Harden', 'Jason Terry', 'Manu Ginobli']);
     //log to the console
       console.log(`Today's substitute teacher is ${substitute}`);
+       //create new line
+      console.log("\n");
+      //directly logging prints the array
+		  console.log(PriorySchool);
+		
